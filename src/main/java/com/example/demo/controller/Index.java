@@ -34,7 +34,7 @@ public class Index {
     public @ResponseBody  String index(ServletRequest request) throws InterruptedException {
         threadTaskService.test();
         System.out.println("主线程名称:"+ Thread.currentThread().getName()+ ",接口调用成功");
-        System.out.println("master修改");
+        System.out.println("master修改1");
         return "接口调用成功";
     }
 }
